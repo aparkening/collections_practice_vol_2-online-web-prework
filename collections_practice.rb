@@ -55,7 +55,7 @@ end
 
 # Return an array of all hashes that contain :temperature => "cool"
 def find_cool(hash)
-    hash.delete_if { |people| people[:temperature] != "cool" }
+  hash.delete_if { |people| people[:temperature] != "cool" }
 end
 
 # Organize schools hash by location
