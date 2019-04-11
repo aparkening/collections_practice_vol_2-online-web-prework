@@ -13,6 +13,7 @@ end
 
 # Return an array of all elements that contain the letter 'a'
 def contain_a(array)
+  # map all elements that include "a", then remove nils
   array.map { |element| element.include?("a") ? element : nil }.compact
 end
 
