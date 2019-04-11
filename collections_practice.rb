@@ -68,7 +68,6 @@ def organize_schools(schools)
     # if school location doesn't exist, create new key and empty array
     if school_hash[location].nil?
       school_hash[location] = []
-    # else add to existing school name array 
     end 
     
     # add to location array 
